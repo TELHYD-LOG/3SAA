@@ -19,11 +19,11 @@ The main function is:
 - muw — Solar zenith angle (ρ) in degrees (n × 1 vector).  
 
 ### Output
-- $$a_{ph}$$ _ $\lambda$ — Estimated aph values (n × 6 vector).  
-- adg_lambda — Estimated adg values (n × 6 vector).  
-- anw_lambda — Estimated anw values (n × 6 vector).
-- bbp_lambda — Estimated bbp values (n × 6 vector). 
-- Kd_lambda — Estimated Kd values (n × 6 vector).  
+- $$a_{ph}$$ ($\lambda$) — Estimated aph values (n × 6 vector).  
+- $$a_{dg}$$ ($\lambda$) — Estimated adg values (n × 6 vector).  
+- $$a_{nw}$$ ($\lambda$) — Estimated anw values (n × 6 vector).
+- $$bb_{p}$$ ($\lambda$) — Estimated bbp values (n × 6 vector). 
+- $$K_{d}$$ ($\lambda$)  — Estimated Kd values (n × 6 vector).  
 
 ---
 
