@@ -54,7 +54,7 @@ Rrs=Rrs(:,[2 3 4 5 6 8]);%Select the 6 OLCI bands used for 3SAA [412 443 490 510
 asol(1:500)=0;
 
 %Rrs              % Reflectance for 200 samples × 11 wavelengths
-%asol00              % Solar zenith angle in degrees
+%asol00           % Solar zenith angle in degrees
 
 ```
 6. Run the function:
