@@ -8,7 +8,7 @@ This repository provides a MATLAB implementation of the 3SAA model for the **OLC
 
 The main function is:
 
-% Retrieve $$a_{ph}$$, $$a_{dg}$$, $$a_{nw}$$, $$bb_{p}$$ and $$K_{d}$$,  and  at specific wavelength (412, 443, 490, 510, 560, 665)
+Retrieve $$a_{ph}$$, $$a_{dg}$$, $$a_{nw}$$, $$bb_{p}$$ and $$K_{d}$$,  and  at specific wavelength (412, 443, 490, 510, 560, 665)
 ```matlab
 [aphy_3SAA,adg_3SAA,ANW,BBP,KD]=Run_3SAA(Rrs,asol,[],4,1,4,0,0,[],[],[],0,[],0,[]);
 ```
