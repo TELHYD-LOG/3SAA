@@ -22,7 +22,7 @@ Retrieve $$a_{ph}$$, $$a_{dg}$$, $$a_{nw}$$, $$bb_{p}$$ and $$K_{d}$$,  and  at 
 - $$a_{dg}$$ ($\lambda$) — Estimated adg values (n × 6 vector).  
 - $$a_{nw}$$ ($\lambda$) — Estimated anw values (n × 6 vector).
 - $$bb_{p}$$ ($\lambda$) — Estimated bbp values (n × 6 vector). 
-- $$K_{d}$$ ($\lambda$)  — Estimated Kd values (n × 6 vector).  
+- $$K_{d}$$ ($\lambda$)  — Estimated Kd values (n × 6 vector).  
 
 ---
 
