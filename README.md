@@ -67,7 +67,8 @@ asol00(1:500)=0;
 
 - Run_3SAA.m  — Main function to estimate Kd values.  
 - IOCCG_dataset.xlsx — Example data to test the code.  
-
+- LUT       — Directory with all the look up tables.
+- Function  — Directory with all the sub function.
 ---
 
 ## 📖 References
