@@ -9,18 +9,17 @@ The retrieval is based on Jorge et al., 2021.
 
 The main function is:
 
-% Retrieve $$a_{nw}$$, bbp, Kd, a_ph and a_dg at specific wavelength (412, 443, 490, 510, 560, 665)
+% Retrieve $$a_{nw}$$, $$bb_{p}$$, $$K_{d}$$, $$a_{ph}$$ and $$a_{dg}$$ at specific wavelength (412, 443, 490, 510, 560, 665)
 ```matlab
 [aphy_3SAA,adg_3SAA,ANW,BBP,KD]=Run_3SAA(Rrs,asol00,[],4,1,4,0,0,[],[],[],0,[],0,[]);
 ```
 ### Main Inputs
 - Rrs — Remote sensing reflectance values (n × 6 matrix) at the following wavelengths:  
-  412, 443, 490, 510, 560, 665 nm
-  
+  412, 443, 490, 510, 560, 665 nm.  
 - muw — Solar zenith angle (ρ) in degrees (n × 1 vector).  
 
 ### Output
-- aphy_lambda — Estimated aph values (n × 6 vector).  
+- $$a_{ph}(/lambda)$$ — Estimated aph values (n × 6 vector).  
 - adg_lambda — Estimated adg values (n × 6 vector).  
 - anw_lambda — Estimated anw values (n × 6 vector).
 - bbp_lambda — Estimated bbp values (n × 6 vector). 
