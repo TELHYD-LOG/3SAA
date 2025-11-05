@@ -9,7 +9,7 @@ The retrieval is based on Jorge et al., 2021.
 
 The main function is:
 
-% Retrieve a_nw, bbp, Kd, a_ph and a_dg at specific wavelength (412, 443, 490, 510, 560, 665)
+% Retrieve $$a_{nw}$$, bbp, Kd, a_ph and a_dg at specific wavelength (412, 443, 490, 510, 560, 665)
 ```matlab
 [aphy_3SAA,adg_3SAA,ANW,BBP,KD]=Run_3SAA(Rrs,asol00,[],4,1,4,0,0,[],[],[],0,[],0,[]);
 ```
